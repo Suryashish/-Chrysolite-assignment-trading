@@ -1,6 +1,6 @@
 # Trading App (React + TypeScript + Vite)
 ## Approach
-It uses React with Typescript and tailwind for the styling. The app fetches stock data from Indian API (https://indianapi.in/indian-stock-market) using Axios and displays it in a responsive grid layout. The app also includes features like search, loading states, error handling, and theme toggling (dark/light mode). It structurallly organizeses the response from the API and with proper logic structures the data and displays it. It uses hook for the theme management and services for the API calls. The app is optimized for mobile devices and provides a clean and user-friendly interface. The code is modular and easy to maintain.
+It uses React with Typescript and tailwind for the styling. The app fetches stock data from Indian API (https://indianapi.in/indian-stock-market) using Axios and displays it in a responsive grid layout. The app also includes features like search, loading states, error handling, and theme toggling (dark/light mode). It structurally organizes the response from the API and with proper logic structures the data and displays it. It uses hook for the theme management and services for the API calls. The app is optimized for mobile devices and provides a clean and user-friendly interface. The code is modular and easy to maintain.
 
 ## Install
 1. Clone the repo and open the project:
