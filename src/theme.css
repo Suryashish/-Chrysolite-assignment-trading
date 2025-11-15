@@ -1,0 +1,41 @@
+/* Default dark theme */
+:root {
+  --bg-primary: #0a0a0a;
+  --bg-secondary: #111111;
+  --bg-tertiary: #0b0b0b;
+  --border-color: rgba(255, 255, 255, 0.1);
+  --text-primary: #ffffff;
+  --text-secondary: rgba(255, 255, 255, 0.6);
+  --text-tertiary: rgba(255, 255, 255, 0.4);
+  --card-bg: #0b0b0b;
+  --skeleton-bg: #262626;
+  --skeleton-bar: #171717;
+}
+
+/* Dark theme (default) */
+:root.dark {
+  --bg-primary: #0a0a0a;
+  --bg-secondary: #111111;
+  --bg-tertiary: #0b0b0b;
+  --border-color: rgba(255, 255, 255, 0.1);
+  --text-primary: #ffffff;
+  --text-secondary: rgba(255, 255, 255, 0.6);
+  --text-tertiary: rgba(255, 255, 255, 0.4);
+  --card-bg: #0b0b0b;
+  --skeleton-bg: #262626;
+  --skeleton-bar: #171717;
+}
+
+/* Light theme */
+:root.light {
+  --bg-primary: #f5f5f5;
+  --bg-secondary: #ffffff;
+  --bg-tertiary: #fafafa;
+  --border-color: rgba(0, 0, 0, 0.1);
+  --text-primary: #0a0a0a;
+  --text-secondary: rgba(0, 0, 0, 0.7);
+  --text-tertiary: rgba(0, 0, 0, 0.5);
+  --card-bg: #ffffff;
+  --skeleton-bg: #e5e5e5;
+  --skeleton-bar: #f5f5f5;
+}
