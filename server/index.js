@@ -28,7 +28,7 @@ async function fetchPrices() {
     if (item.index === "NIFTY 50") nifty50 = item.last;
   });
 
-  // Return only the nifty50 value
+  // nifty50 value
   return nifty50;
 }
 
@@ -36,7 +36,7 @@ app.get("/api/index-prices", async (req, res) => {
   try {
     const nifty50 = await fetchPrices();
     console.log(nifty50);
-    // Respond with an object containing the NIFTY 50 value
+    // Nifty 50 val
     res.json({ nifty50 });
   } catch (err) {
     console.log("ERROR:", err?.response?.status);
